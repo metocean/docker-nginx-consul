@@ -1,2 +1,2 @@
 # nginx-consul
-The official docker nginx image with consul
+Alpine linux nginx with consul
