@@ -1,4 +1,5 @@
-FROM metocean/aroha:latest
+FROM metocean/mini-nodejs-consul:0.10
+MAINTAINER Thomas Coats <thomas@metocean.co.nz>
 
 RUN apk-install nginx\
   && mkdir /tmp/nginx\
