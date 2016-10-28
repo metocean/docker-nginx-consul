@@ -1,6 +1,6 @@
 FROM metocean/mini-nodejs-consul:latest
 
-RUN apk-install nginx\
+RUN apk add --update nginx\
   && mkdir /tmp/nginx\
   && rm /etc/init.d/nginx\
   && chown -R nginx:root /var/lib/nginx
