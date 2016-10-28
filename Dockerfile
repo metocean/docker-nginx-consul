@@ -1,4 +1,4 @@
-FROM metocean/mini-nodejs-consul:latest
+FROM metocean/aroha:latest
 
 RUN apk add --update nginx\
   && mkdir /tmp/nginx\
