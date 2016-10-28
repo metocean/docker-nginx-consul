@@ -1,5 +1,4 @@
-FROM metocean/mini-nodejs-consul:0.10
-MAINTAINER Thomas Coats <thomas@metocean.co.nz>
+FROM metocean/mini-nodejs-consul:latest
 
 RUN apk-install nginx\
   && mkdir /tmp/nginx\
